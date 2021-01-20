@@ -96,10 +96,6 @@
 	  s.parentNode.insertBefore(hm, s);
 	})();
 	</script>
-
-
-
-    </script>
     <!--调试工具-->
     <script>
         if ((location.href || '').indexOf('admin=true') > -1) {
@@ -109,7 +105,6 @@
     </script>
 </head>
 <body class="is-loading">
-
 <!-- Wrapper -->
 <div id="wrapper">
 
@@ -175,12 +170,8 @@
     </footer>
 
 </div>
-<script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
-<script type="text/javascript">
-    document.getElementById('cip').innerText = returnCitySN['cip'];
-    document.getElementById('cid').innerText = returnCitySN['cid'];
-    document.getElementById('cname').innerText = returnCitySN['cname'];
-</script>
+<canvas id="mineCanvas"></canvas>
+
 <script>
     if ('addEventListener' in window) {
         window.addEventListener('load', function () {
@@ -191,6 +182,8 @@
 </script>
 <!--落叶效果-->
 <script src="./assets/js/home/jquery.min.js"></script>
+<script src="./assets/js/home/anime.min.js"></script>
+<script src="./assets/js/home/canvas.js"></script>
 <script src="./assets/js/home/su.js"></script>
 <script type="text/javascript">jQuery(document).ready(function ($) {
     $('body').wpSuperSnow({
@@ -202,6 +195,12 @@
         useFlakeTrans: false
     });
 });</script>
+<script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
+<script type="text/javascript">
+    document.getElementById('cip').innerText = returnCitySN['cip'];
+    document.getElementById('cid').innerText = returnCitySN['cid'];
+    document.getElementById('cname').innerText = returnCitySN['cname'];
+</script>
 <!--动态背景特效-->
 <!--<script type="text/javascript" color="0,0,255" opacity='0.7' zIndex="-2" count="200" src="./assets/js/home/canvas-nest.min.js"></script>-->
 <!-- 禁止右键和禁止选中文字 -->

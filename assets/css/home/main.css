@@ -94,6 +94,12 @@ body {
     background-size: 100px 100px, cover, cover;
     background-position: top left, center center, bottom centr;
     background-attachment: fixed, fixed, fixed;
+    cursor: url(/assets/cursor/Arrow.cur),default;
+}
+#mineCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 body:after {
@@ -159,6 +165,7 @@ a {
     transition: color 0.2s ease, border-color 0.2s ease;
     color: inherit;
     text-decoration: none;
+    cursor: url(/assets/cursor/Hand.cur),pointer;
 }
 
 a:before {
@@ -722,6 +729,8 @@ button:disabled,
     -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
     -ms-transition: opacity 1s ease, -ms-transform 1s ease;
     transition: opacity 1s ease, transform 1s ease;
+    cursor: url(/assets/cursor/Arrow.cur),default;
+
 }
 
 #main .avatar {
