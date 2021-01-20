@@ -1,3 +1,6 @@
+<?php
+    $version = '202101201300'
+?>
 <!DOCTYPE html>
 <html>
 <!--head模块-->
@@ -68,10 +71,10 @@
     <!-- 添加到主屏 -->
     <meta name="mobile-web-app-capable" content="yes">
     <!--引入核心css-->
-    <link rel="stylesheet" href="./assets/css/home/main.css"/>
+    <link rel="stylesheet" href="./assets/css/home/main.css?v=<?=$version?>"/>
     <!--选择性引入css-->
     <noscript>
-        <link rel="stylesheet" href="./assets/css/home/noscript.css"/>
+        <link rel="stylesheet" href="./assets/css/home/noscript.css?v=<?=$version?>"/>
     </noscript>
     <!--SEO优化-->
     <!--标题-->
@@ -91,7 +94,7 @@
 	var _hmt = _hmt || [];
 	(function() {
 	  var hm = document.createElement("script");
-	  hm.src = "https://hm.baidu.com/hm.js?e5df5d58f35df4f5a177c704966a2a66";
+	  hm.src = "https://hm.baidu.com/hm.js<?=$version?>?e5df5d58f35df4f5a177c704966a2a66";
 	  var s = document.getElementsByTagName("script")[0];
 	  s.parentNode.insertBefore(hm, s);
 	})();
@@ -181,10 +184,10 @@
     }
 </script>
 <!--落叶效果-->
-<script src="./assets/js/home/jquery.min.js"></script>
-<script src="./assets/js/home/anime.min.js"></script>
-<script src="./assets/js/home/canvas.js"></script>
-<script src="./assets/js/home/su.js"></script>
+<script src="./assets/js/home/jquery.min.js?v=<?=$version?>"></script>
+<script src="./assets/js/home/anime.min.js?v=<?=$version?>"></script>
+<script src="./assets/js/home/canvas.js?v=<?=$version?>"></script>
+<script src="./assets/js/home/su.js?v=<?=$version?>"></script>
 <script type="text/javascript">jQuery(document).ready(function ($) {
     $('body').wpSuperSnow({
         flakes: ['./assets/images/home/007.png', './assets/images/home/006.png', './assets/images/home/004.png', './assets/images/home/005.png', './assets/images/home/001.png', './assets/images/home/003.png', './assets/images/home/002.png', './assets/images/home/008.png'],
@@ -201,12 +204,10 @@
     document.getElementById('cid').innerText = returnCitySN['cid'];
     document.getElementById('cname').innerText = returnCitySN['cname'];
 </script>
-<!--动态背景特效-->
-<!--<script type="text/javascript" color="0,0,255" opacity='0.7' zIndex="-2" count="200" src="./assets/js/home/canvas-nest.min.js"></script>-->
 <!-- 禁止右键和禁止选中文字 -->
 <body onselectstart="return false" oncontextmenu=self.event.returnValue=false></body>
 <!--防举报,仅支持iOS-->
-<!--<script src="https://open.mobile.qq.com/sdk/qqapi.js?_bid=152"></script>-->
+<!--<script src="https://open.mobile.qq.com/sdk/qqapi.js?v=<?=$version?>?_bid=152"></script>-->
 <!--<script type="text/javascript">-->
 <!--    mqq.ui.setTitleButtons({-->
 <!--        right: {-->
@@ -218,6 +219,7 @@
 <!-- 背景音乐代码 -->
 <!--<audio autoplay="autopaly" loop="loop" src="https://blog.assets.top/0.m4a" type="audio/mpeg"/>-->
 <!--</audio>-->
-<script type="text/javascript" color="51,153,204" opacity='0.7' zIndex="-2" count="200" src="./assets/js/home/canvas-nest.js"></script>
+<!--动态背景特效-->
+<script type="text/javascript" color="51,153,204" opacity='0.7' zIndex="-2" count="200" src="./assets/js/home/canvas-nest.js?v=<?=$version?>"></script>
 </body>
 </html>
