@@ -97,9 +97,11 @@ body {
     cursor: url(/assets/cursor/Arrow.cur),default;
 }
 #mineCanvas {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
+    z-index: 9999999999999;
+    pointer-events:none;
 }
 
 body:after {
@@ -711,11 +713,11 @@ button:disabled,
     position: relative;
     max-width: 100%;
     min-width: 27em;
-    padding: 4.5em 3em 3em 3em;
-    background: #ffffff;
+    padding: 2em 2em 2em 2em;
+    background: #e7e6e6;
     border-radius: 4px;
     cursor: default;
-    opacity: 0.75;
+    opacity: 0.7;
     text-align: center;
     -moz-transform-origin: 50% 50%;
     -webkit-transform-origin: 50% 50%;
@@ -731,6 +733,7 @@ button:disabled,
     transition: opacity 1s ease, transform 1s ease;
     cursor: url(/assets/cursor/Arrow.cur),default;
 
+
 }
 
 #main .avatar {
@@ -743,7 +746,8 @@ button:disabled,
     display: block;
     margin: 0 auto;
     border-radius: 100%;
-    box-shadow: 0 0 0 1.5em #ffffff;
+    box-shadow: 0 0 0 1.5em #e7e6e6;
+    border: 5px #9fa5d5 double;
 }
 
 #main .avatar:before {
@@ -751,11 +755,13 @@ button:disabled,
     display: block;
     position: absolute;
     top: 50%;
-    left: -3em;
-    width: calc(100% + 6em);
-    height: 1px;
+    left: -2em;
+    width: calc(100% + 4em);
+    height: 5px;
     z-index: -1;
-    background: #c8cccf;
+    background-image: linear-gradient(to right,#EAE5C9,#6cc6cb);
+    background-size: 400%;
+    animation: 10s ease 0s infinite normal none running bganimation;
 }
 
 @media screen and (max-width: 480px) {
