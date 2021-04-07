@@ -1,5 +1,5 @@
 <?php
-    $version = '202101201300'
+    $version = '20210407'
 ?>
 <!DOCTYPE html>
 <html>
@@ -220,6 +220,6 @@
 <!--<audio autoplay="autopaly" loop="loop" src="https://blog.assets.top/0.m4a" type="audio/mpeg"/>-->
 <!--</audio>-->
 <!--动态背景特效-->
-<script type="text/javascript" color="51,153,204" opacity='0.7' zIndex="-2" count="200" src="./assets/js/home/canvas-nest.js?v=<?=$version?>"></script>
+<!--<script type="text/javascript" color="51,153,204" opacity='0.7' zIndex="-2" count="200" src="./assets/js/home/canvas-nest.js?v=--><?//=$version?><!--"></script>-->
 </body>
 </html>
