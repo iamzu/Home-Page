@@ -78,13 +78,13 @@
     </noscript>
     <!--SEO优化-->
     <!--标题-->
-    <title>「Chia2」的小屋</title>
+    <title>「七月」的小屋</title>
     <!--关键词-->
-    <meta name="keywords" content="Chia2,个人主页,引导页,导航,博客,音乐,电影,壁纸,解析,源码,教程">
+    <meta name="keywords" content="七月,个人主页,引导页,导航,博客,音乐,电影,壁纸,解析,源码,教程">
     <!--描述-->
-    <meta name="description" content="「Chia2」的小屋！">
+    <meta name="description" content="「七月」的小屋！">
     <!--作者 author-->
-    <meta name="author" content="Chia2,admin@chia2.com">
+    <meta name="author" content="七月,i@lsoex.com">
     <!--搜索引擎索引方式-->
     <meta name="robots" content="all">
     <!--logo-->
@@ -118,7 +118,7 @@
             <!--头像-->
             <span class="avatar"><img src="https://q2.qlogo.cn/headimg_dl?dst_uin=210849049&spec=100" alt=""/></span>
             <!--内容-->
-            <a href="/"><h1>Chia2</h1></a>
+            <a href="/"><h1>七月</h1></a>
             <p>欢迎来到我的小屋！</p>
         </header>
         <!--footer模块-->
@@ -167,7 +167,7 @@
             <li>您的位置：
                 <span id="cname"></span>
             </li>
-            <p><a target="_blank" href="/">Chia2</a>©版权所有 <a href="http://www.miitbeian.gov.cn/">苏ICP备17068687号</a></p>
+            <p><a target="_blank" href="/">Lsoex</a>©版权所有 <a href="http://www.miitbeian.gov.cn/">苏ICP备17068687号</a></p>
 
         </ul>
     </footer>
