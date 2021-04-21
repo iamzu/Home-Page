@@ -145,10 +145,10 @@
             <!--联系方式-->
             <a href="http://wpa.qq.com/msgrd?V=1&uin=210849049" class="fa fa-qq"
                target="_blank>">QQ</a>
-            <a>|</a>
+<!--            <a>|</a>-->
             <!--            <a href="404.html" class="fa fa-weixin" target="_blank>">微信</a>-->
             <!--            <a>|</a>-->
-            <a href="https://weibo.com/u/5671385970" class="fa fa-weibo" target="_blank>">微博</a>
+<!--            <a href="https://weibo.com/u/5671385970" class="fa fa-weibo" target="_blank>">微博</a>-->
             <a>|</a>
             <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=8pOWn5ucspGam5PA3JGdnw"
                class="fa fa-envelope" target="_blank>">邮箱</a>
