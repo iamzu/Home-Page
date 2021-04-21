@@ -167,7 +167,7 @@
             <li>您的位置：
                 <span id="cname"></span>
             </li>
-            <p><a target="_blank" href="/">Lsoex</a>©版权所有 <a href="http://www.miitbeian.gov.cn/">苏ICP备17068687号</a></p>
+            <p><a target="_blank" href="/">Lsoex</a>©版权所有 <a href="http://beian.miit.gov.cn/">苏ICP备17068687号</a></p>
 
         </ul>
     </footer>
