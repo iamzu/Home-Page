@@ -1,4 +1,4 @@
-[![Website](https://img.shields.io/website-up-down-green-red/http/i.dmego.cn.svg)](https://lsoex.com/)
+[![Website](https://img.shields.io/website-up-down-green-red/http/i.dmego.cn.svg)](http://lsoex.com/)
 [![License](https://img.shields.io/github/license/dmego/home.github.io.svg)](/LICENSE)
 
 
@@ -14,7 +14,7 @@
 
 ### 注
 
-- 访问地址：[个人主页](https://lsoex.com/)
+- 访问地址：[个人主页](http://lsoex.com/)
 - 原先 YQL 服务将被淘汰，现改用 [JsonBird](https://bird.ioliu.cn/)
 
 ### 更新时间
