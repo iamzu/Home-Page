@@ -71,5 +71,5 @@ const Counter = {
 ### 注
 
 - 访问地址：[个人主页](http://lsoex.com/)
-- 原先 YQL 服务将被淘汰，现改用 [JsonBird](https://bird.ioliu.cn/)
+- 如果对你有帮助请star哦！✨
 
