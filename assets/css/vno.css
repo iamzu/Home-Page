@@ -40,7 +40,7 @@ body {
 }
 
 .ih-item.circle.effect .info h2 {
-  color: #fff;    
+  color: #fff;
   position: relative;
   font-size: 18px;
   margin: 0 auto;
@@ -225,7 +225,7 @@ body {
   border-radius: 300px;
   opacity: 0;
   -webkit-transition: all 0.2s ease-in;
-} 
+}
 
 .profilepic:hover {
   -webkit-animation: btnGroups 1s linear;
@@ -7615,10 +7615,10 @@ body:after {
   clear: both;
 }
 
-html,
-body {
-  height: 100%;
-}
+/*html,*/
+/*body {*/
+/*  height: 100%;*/
+/*}*/
 
 html {
   height: 100%;
@@ -8187,7 +8187,8 @@ nav {
 
 .navigation__item {
   display: inline-block;
-  margin: 5px 1px 0 0;
+  /*margin: 5px 1px 0 0;*/
+  margin: 5px;
   line-height: 1em;
 }
 

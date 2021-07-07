@@ -1,9 +1,3 @@
-[![Website](https://img.shields.io/website-up-down-green-red/http/i.dmego.cn.svg)](http://lsoex.com/)
-[![License](https://img.shields.io/github/license/dmego/home.github.io.svg)](/LICENSE)
-
-### 开箱即用
->项目根目录下的`webConfig.js`文件中配置网站基本信息
-```js
 const Counter = {
     data() {
         return {
@@ -53,22 +47,4 @@ const Counter = {
         }
     }
 }
-
-```
-
-
-### 个人主页
-
->这是我的个人主页
-
->衍生自 [Vno](https://github.com/onevcat/vno-jekyll) Jekyll 主题
-
->页面部分加载效果借鉴于 [Mno](https://github.com/mcc108/mno) Ghost 主题
-
->借鉴了[北岛向南的小屋](https://javef.github.io/)的头像样式
-
-### 注
-
-- 访问地址：[个人主页](http://lsoex.com/)
-- 原先 YQL 服务将被淘汰，现改用 [JsonBird](https://bird.ioliu.cn/)
 
