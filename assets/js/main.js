@@ -30,14 +30,14 @@ var iUp = (function () {
 $(document).ready(function () {
 
 	// 获取一言数据
-	fetch('https://v1.hitokoto.cn',{ method: 'GET',
-		mode: 'cors'}).then(function (res) {
-		return res.json();
-	}).then(function (e) {
-		$('#description').html(e.hitokoto + "<br/> -「<strong>" + e.from + "</strong>」")
-	}).catch(function (err) {
-		console.error(err);
-	})
+	// fetch('https://v1.hitokoto.cn',{ method: 'GET',
+	// 	mode: 'cors'}).then(function (res) {
+	// 	return res.json();
+	// }).then(function (e) {
+	// 	$('#description').html(e.hitokoto + "<br/> -「<strong>" + e.from + "</strong>」")
+	// }).catch(function (err) {
+	// 	console.error(err);
+	// })
 
 
 	// var url = 'https://query.yahooapis.com/v1/public/yql' +
